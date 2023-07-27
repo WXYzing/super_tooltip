@@ -206,7 +206,7 @@ class _SuperTooltipState extends State<SuperTooltip>
       curve: Curves.fastOutSlowIn,
     );
     final offsetToTarget = Offset(
-      -target.dx + size.width / 2,
+      -target.dx,// + size.width / 2,
       -target.dy + size.height / 2,
     );
     final backgroundColor =
